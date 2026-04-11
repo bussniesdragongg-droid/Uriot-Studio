@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Bitcount+Grid+Double:wght@100..900&display=swap');
+
+body {
+    background-color: #1d1d1d;
+    color: white;
+    font-family: Bitcount Grid Double;
+}
+
+.title-user {
+    color: white;
+    font-size: 24px;
+    text-align: center;
+    margin-top: 40px;
+}
+
+.Description-main {
+    text-align: center;
+    font-size: 17px;
+    margin-top: 20px;
+}
+
+.glass-btn {
+    padding: 14px 28px;
+    font-size: 16px;
+    font-weight: 600;
+    color: #ffffff;
+    background: rgba(255, 255, 255, 0.08);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    border-radius: 10px;
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    cursor: pointer;
+    transition: all 0.25s ease;
+    position: absolute;
+    top: 23%;
+    left: 57%;
+    transform: translate(-50%, -50%);
+}
+
+.glass-btn:hover {
+    background: rgba(255, 255, 255, 0.18);
+    border-color: rgba(255, 255, 255, 0.4);
+}
+
+.glass-btn:active {
+    transform: scale(0.97);
+}
+
+.glass-btn-one {
+    padding: 14px 28px;
+    font-size: 16px;
+    font-weight: 600;
+    color: #ffffff;
+    background: rgba(20, 245, 245, 0.08);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    border-radius: 10px;
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    cursor: pointer;
+    transition: all 0.25s ease;
+    position: absolute;
+    top: 23%;
+    left: 44%;
+    transform: translate(-50%, -50%);
+}
+
+.glass-btn-one:hover {
+    background: rgba(255, 255, 255, 0.18);
+    border-color: rgba(255, 255, 255, 0.4);
+}
+
+.glass-btn-one:active {
+    transform: scale(0.97);
+}
+
+.separator {
+    height: 60px;
+}
+
+.separator-black {
+    height: 3px;
+    background-color: #23272a;
+    margin: 40px auto;
+    width: 80%;
+}
+
+.title-engine {
+    text-align: center;
+    font-size: 23px;
+}
+
+.container-egine-expresjs {
+    background-color: #3030302f;
+    border: 1px solid #ccc;
+    border-radius: 12px;
+    width: 300px;
+    height: 19vh;
+}
